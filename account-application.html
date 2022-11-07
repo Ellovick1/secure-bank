@@ -118,36 +118,56 @@
                 at a later time. If you need any assistance please contact our banking team on <a
                     href="/cdn-cgi/l/email-protection#4a23242c250a292b3a233e2b26392f293f38233e33282b242164292527"><span
                         class="__cf_email__"
-                        data-cfemail="f39a9d959cb39092839a87929f80969086819a878a91929d98dd909c9e">[email&#160;protected]</span></a>
+                        >[email&#160;protected]</span></a>
             </p>
             <br />
 
-            <div class="control-group">
-                <label class="control-label" for="for_yourself_or_someone">Are you applying for this account for
-                    yourself or on behalf of someone?</label>
-                <div class="controls">
-                    <select name="for_yourself_or_someone" id="for_yourself_or_someone">
-                        <option value="">Please select</option>
-                        <option value="For myself">For myself</option>
-                        <option value="On behalf of someone">On behalf of someone</option>
-                    </select>
-                    <span class="help-block"></span>
-                </div>
-            </div>
+     
 
             <div id="on_behalf">
+                
                 <div class="control-group">
-                    <label class="control-label" for="relationship_with_applicant">What is your name and relationship
-                        with the applicant(s)?</label>
+                    <label class="control-label" for="relationship_contact_details">First name</label>
                     <div class="controls">
-                        <textarea id="relationship_with_applicant" name="relationship_with_applicant" class="span8"
-                            rows="3"></textarea>
+                        <input type="text" class="span12" value="" id="relationship_contact_details"
+                            name="relationship_contact_details">
                         <span class="help-block"></span>
                     </div>
                 </div>
                 <div class="control-group">
-                    <label class="control-label" for="relationship_contact_details">What is your contact email
-                        address?</label>
+                    <label class="control-label" for="relationship_contact_details">Middle name</label>
+                    <div class="controls">
+                        <input type="text" class="span12" value="" id="relationship_contact_details"
+                            name="relationship_contact_details">
+                        <span class="help-block"></span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="relationship_contact_details">Surname</label>
+                    <div class="controls">
+                        <input type="text" class="span12" value="" id="relationship_contact_details"
+                            name="relationship_contact_details">
+                        <span class="help-block"></span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="relationship_contact_details">Email</label>
+                    <div class="controls">
+                        <input type="email" class="span12" value="" id="relationship_contact_details"
+                            name="relationship_contact_details">
+                        <span class="help-block"></span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="relationship_contact_details">Password</label>
+                    <div class="controls">
+                        <input type="text" class="span12" value="" id="relationship_contact_details"
+                            name="relationship_contact_details">
+                        <span class="help-block"></span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="relationship_contact_details">Verify password</label>
                     <div class="controls">
                         <input type="text" class="span12" value="" id="relationship_contact_details"
                             name="relationship_contact_details">
@@ -157,166 +177,52 @@
             </div>
 
             <div class="control-group">
-                <label class="control-label" for="existing_account" id="existing_account_label">Are you an existing
-                    client?</label>
+                <label class="control-label" for="existing_account" id="existing_account_label">Gender</label>
                 <div class="controls">
                     <select name="existing_account" id="existing_account">
                         <option value="">Please select</option>
-                        <option value="Yes">Yes</option>
-                        <option value="No">No</option>
+                        <option value="Yes">Male</option>
+                        <option value="No">Female</option>
+                        <option value="No">Other</option>
                     </select>
                     <span class="help-block"></span>
                 </div>
             </div>
-
-            <div id="existing_client">
-                <p>Please enter the details of your existing CSB accounts.</p>
-
-                <div id="group-existing_account" class="group">
-                    <div class="template" id="group-existing_account-instance-template">
-                        <a href="#" title="Remove" class="remove-instance">&times;</a>
-                        <div class="row-fluid">
-                            <div class="span6">
-                                <div class="control-group">
-                                    <label class="control-label" for="account_name">Account Name</label>
-                                    <div class="controls">
-                                        <input type="text" class="span12" value=""
-                                            id="existing_account/account_name/TEMPLATE_INSTANCE_ID"
-                                            data-key="TEMPLATE_INSTANCE_ID"
-                                            name="existing_account/account_name/TEMPLATE_INSTANCE_ID">
-                                        <span class="help-block"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="span6">
-                                <div class="control-group">
-                                    <label class="control-label" for="account_number">Account Number</label>
-                                    <div class="controls">
-                                        <input type="text" class="span12" value=""
-                                            id="existing_account/account_number/TEMPLATE_INSTANCE_ID"
-                                            data-key="TEMPLATE_INSTANCE_ID"
-                                            name="existing_account/account_number/TEMPLATE_INSTANCE_ID">
-                                        <span class="help-block"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="instance" id="group-existing_account-instance-1">
-                        <div class="row-fluid">
-                            <div class="span6">
-                                <div class="control-group">
-                                    <label class="control-label" for="account_name">Account Name</label>
-                                    <div class="controls">
-                                        <input type="text" class="span12" value="" id="existing_account/account_name/1"
-                                            data-key="1" name="existing_account/account_name/1">
-                                        <span class="help-block"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="span6">
-                                <div class="control-group">
-                                    <label class="control-label" for="account_number">Account Number</label>
-                                    <div class="controls">
-                                        <input type="text" class="span12" value=""
-                                            id="existing_account/account_number/1" data-key="1"
-                                            name="existing_account/account_number/1">
-                                        <span class="help-block"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <a href="#" class="add-trigger btn btn-default">Add Account</a>
-                </div>
-                <br /><br />
-            </div>
-
             <div class="control-group">
-                <label class="control-label" for="type_of_account">What type of account are you looking to open?</label>
+                <label class="control-label" for="existing_account" id="existing_account_label">Security question</label>
                 <div class="controls">
-                    <select name="type_of_account" id="type_of_account">
+                    <select name="existing_account" id="existing_account">
                         <option value="">Please select</option>
-                        <option value="IBC, LLC or Partnership">IBC, LLC or Partnership</option>
-                        <option value="Trust or Foundation">Trust or Foundation</option>
-                        <option value="Individual">Individual</option>
-                    </select>
-                    <span class="help-block"></span>
-                </div>
-            </div>
-            <!-- Permanently Reside in Cook Islands -->
-            <div id="prci_group" class="control-group ">
-                <label class="control-label" id="prci_label" for="prci"></label>
-                <div class="controls">
-                    <select name="prci" id="prci">
-                        <option value="">Please select</option>
-                        <option value="Yes">Yes</option>
-                        <option value="No">No</option>
+                        <option value="Yes">What is your mothers name</option>
+                        <option value="No">The name of your favorite teacher</option>
+                        <option value="No">Other</option>
                     </select>
                     <span class="help-block"></span>
                 </div>
             </div>
 
+          
             <div class="control-group">
-                <label class="control-label" for="hear_about_csb">How did you hear about Capital Security Bank?</label>
+              
+            </div>
+        
+            <div class="control-group">
+                <label class="control-label" for="relationship_contact_details">Security answer</label>
                 <div class="controls">
-                    <select name="hear_about_csb" id="hear_about_csb">
-                        <option value="">Please select</option>
-                        <option value="Business recommendation">Business recommendation</option>
-                        <option value="Internet advert">Internet advert</option>
-                        <option value="Social media">Social media</option>
-                        <option value="Magazine">Magazine</option>
-                        <option value="Online search">Online search</option>
-                        <option value="Personal recommendation / friend">Personal recommendation / friend</option>
-                        <option value="Financial advisor">Financial advisor</option>
-                        <option value="Email">Email</option>
-                        <option value="Exhibition or Event">Exhibition or Event</option>
-                        <option value="I already have an account">I already have an account</option>
-                    </select>
+                    <input type="text" class="span12" value="" id="relationship_contact_details"
+                        name="relationship_contact_details">
                     <span class="help-block"></span>
                 </div>
             </div>
 
-            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+            <!-- <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
             <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-            <script type="text/javascript">
-                $('#prci_group').hide();
-                $type_of_account = $('#type_of_account').val();
-                if ($type_of_account == "IBC, LLC or Partnership") {
-                    $('#prci_group').show();
-                    $('#prci_label').html("Does any Beneficial Owner such as Shareholders, Members or Partners permanently reside in the Cook Islands?");
-                } else if ($type_of_account == "Trust or Foundation") {
-                    $('#prci_group').show();
-                    $('#prci_label').html("Does any Beneficial Owner such as Settlors or Founders permanently reside in the Cook Islands?");
-                } else if ($type_of_account == "Individual") {
-                    $('#prci_group').show();
-                    $('#prci_label').html("Does any Beneficial Owner or Account Signatories permanently reside in the Cook Islands?");
-                } else {
-                    $('#prci_group').hide();
-                }
-                $('#type_of_account').on('change', function () {
-                    $type_of_account = $('#type_of_account').val();
-                    if ($type_of_account == "IBC, LLC or Partnership") {
-                        $('#prci_group').show();
-                        $('#prci_label').html("Does any Beneficial Owner such as Shareholders, Members or Partners permanently reside in the Cook Islands?");
-                    } else if ($type_of_account == "Trust or Foundation") {
-                        $('#prci_group').show();
-                        $('#prci_label').html("Does any Beneficial Owner such as Settlors or Founders permanently reside in the Cook Islands?");
-                    } else if ($type_of_account == "Individual") {
-                        $('#prci_group').show();
-                        $('#prci_label').html("Does any Beneficial Owner or Account Signatories permanently reside in the Cook Islands?");
-                    } else {
-                        $('#prci_group').hide();
-                    }
-                });
-            </script>
+          
 
 
 
 
-
-            <button type="submit" class="btn btn-primary pull-right">Next</button>
+            <button type="submit" class="btn btn-primary pull-right">Submit</button>
 
 
             <div class="clearfix"></div>
@@ -324,65 +230,7 @@
         </form>
     </div>
 
-    <div class="modal fade" tabindex="-1" role="dialog" id="modal-cbl" style="display:none;">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Save and come back later</h4>
-                </div>
-                <div class="modal-body">
-                    <p>You can save this application form at any time.</p>
-                    <p>Enter a valid email address below, an email will be sent to you with a link to come back to where
-                        you were in the application.</p>
-                    <input type="email" value="" class="form-control" id="cbl-email-enter"
-                        placeholder="Email address" />
-                    <p>Enter a valid 4+ character pass code. You will need to remember this and enter it when you resume
-                        your application.</p>
-                    <input type="text" value="" pattern=".{4,}" required title="4 characters minimum"
-                        class="form-control" id="cbl-pass-enter" placeholder="Password" />
-                    <p>You can still continue with the application now, and as long as you proceed past the current
-                        page, the link you have received will have all of your changes.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel and continue
-                        application</button>
-                    <button type="button" class="btn btn-primary" id="cbl-submit">Send me a link to continue
-                        later</button>
-                </div>
-            </div>
-            <!-- /.modal-content -->
-        </div>
-        <!-- /.modal-dialog -->
-    </div>
-    <!-- /.modal -->
-
-
-    <div class="modal fade" tabindex="-1" role="dialog" id="modal-reset" style="display:none;">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">Reset Form</h4>
-                </div>
-                <div class="modal-body">
-                    <p>By clicking reset form you will restart the application process, any unsaved progress will be
-                        lost.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel and continue
-                        application</button>
-                    <button type="button" class="btn btn-primary" id="reset-submit">Reset form and start a new
-                        application</button>
-                </div>
-            </div>
-            <!-- /.modal-content -->
-        </div>
-        <!-- /.modal-dialog -->
-    </div>
-    <!-- /.modal -->
+   
 
     <div id="footer">
         <div class="container">
@@ -417,9 +265,9 @@
                         <p>Copyright 2017 © Capital Security Bank Limited. All rights reserved.<br>PO Box 906,
                             Centrepoint, Avarua, Rarotonga, Cook Islands<br>Ph: <a href="tel:68222505">+682 22505</a>
                             Fax: +682 22056 &nbsp;Email: <a
-                                href="/cdn-cgi/l/email-protection#2940474f46694a4859405d48455a4c4a5c5b405d504b484742074a4644"><span
+                                href=""><span
                                     class="__cf_email__"
-                                    data-cfemail="7b12151d143b181a0b120f1a17081e180e09120f02191a151055181416">[email&#160;protected]</span></a>
+                                    >[email&#160;protected]</span></a>
                         </p>
                     </div>
 
