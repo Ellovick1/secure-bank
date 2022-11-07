@@ -936,9 +936,15 @@ input[type="color"],
 
 input,
 textarea {
-    width: 210px;
+    width: 450px;
 }
 
+
+@media (max-width : 476px) {
+    textarea {
+        width: 100%;
+    }
+}
 textarea {
     height: auto;
 }

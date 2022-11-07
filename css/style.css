@@ -82,6 +82,7 @@ input[type="checkbox"] {
     float: right;
 }
 
+
 @media (max-width: 960px) {
     body #content {
         width: auto;
@@ -100,7 +101,7 @@ input[type="checkbox"] {
         margin-right: 5px;
     }
     select {
-        width: auto;
+        width: 184px;
         max-width: 100%;
     }
     #header .container,
